@@ -4,6 +4,7 @@ import mysql.connector
 cnx = mysql.connector.connect(user='root', password='Pucky11SQL20',
                               host='127.0.0.1',
                               database='company')
+
 '''
 Note in the future for your project, instead of entering the username and password
 you prompt the user through str(input()) and login that way!!
